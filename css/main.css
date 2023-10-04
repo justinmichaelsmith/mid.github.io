@@ -16,7 +16,7 @@ body {
 }
 .v1_3 {
   width: 578px;
-  color: url("../images/v1_3.png");
+  color: white;
   position: absolute;
   top: 120px;
   left: 550px;
@@ -55,7 +55,7 @@ body {
 }
 .v1_6 {
   width: 578px;
-  color: url("../images/v1_6.png");
+  color: white);
   position: absolute;
   top: 63px;
   left: 0px;
