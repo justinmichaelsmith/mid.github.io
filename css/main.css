@@ -1,10 +1,12 @@
 body {
-  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 32px;
 }
 .v1_2 {
   width: 100%;
   height: 1610px;
-  background: rgba(0,0,0,1);
+  background: black;
   opacity: 1;
   position: relative;
   top: 0px;
@@ -17,7 +19,7 @@ body {
   position: absolute;
   top: 120px;
   left: 550px;
-  font-family: Inter;
+  font-family: sans-serif;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
@@ -39,7 +41,7 @@ body {
 .v1_5 {
   width: 578px;
   height: 647px;
-  background: rgba(255,255,255,1);
+  background: white;
   opacity: 1;
   position: relative;
   top: 0px;
@@ -64,7 +66,7 @@ body {
 .v1_7 {
   width: 463px;
   height: 75px;
-  background: url("../images/v1_7.png");
+  background: white;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -77,7 +79,7 @@ body {
 .v1_8 {
   width: 142px;
   height: 75px;
-  background: rgba(0,0,0,0.10000000149011612);
+  background: rgba(0,0,0,0.1);
   padding: 18px 36px;
   margin: 8px;
   opacity: 1;
@@ -92,7 +94,7 @@ body {
 }
 .v1_9 {
   width: 70px;
-  color: rgba(0,0,0,1);
+  color: black;
   position: absolute;
   top: 18px;
   left: 36px;
@@ -105,7 +107,7 @@ body {
 .v1_10 {
   width: 302px;
   height: 75px;
-  background: rgba(0,0,0,1);
+  background: black;
   padding: 18px 36px;
   margin: 8px;
   opacity: 1;
@@ -120,11 +122,11 @@ body {
 }
 .v1_11 {
   width: 230px;
-  color: rgba(255,255,255,1);
+  color: white;
   position: absolute;
   top: 18px;
   left: 36px;
-  font-family: Inter;
+  font-family: sans-serif;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
@@ -132,11 +134,11 @@ body {
 }
 .v1_12 {
   width: 578px;
-  color: url("../images/v1_12.png");
+  color: white;
   position: absolute;
   top: 1502px;
   left: 550px;
-  font-family: Inter;
+  font-family: sans-serif;
   font-weight: Bold;
   font-size: 20px;
   opacity: 1;
