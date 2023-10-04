@@ -43,10 +43,10 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   overflow: hidden;
 }
 .v1_6 {
@@ -81,10 +81,10 @@ body {
   position: absolute;
   top: 0px;
   left: 321px;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   overflow: hidden;
 }
 .v1_9 {
@@ -106,10 +106,10 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   overflow: hidden;
 }
 .v1_11 {
