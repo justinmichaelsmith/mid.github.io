@@ -1,6 +1,7 @@
 <!DOCTYPE html><html>
         <head>
             <link href="./css/main.css" rel="stylesheet" />
+            <script type="text/javascript" src="js/heatmap.js"></script>
             <title>mid — a simple design subscription to scale your business</title>
             <link rel="shortcut icon" href="favicon.svg">
         </head>
@@ -53,5 +54,16 @@
                     © 2023 mid</span></div>
                 </div>
               </div>
+              <script>var heatmapInstance = h337.create({
+                container: document.querySelector('.heatmap'),
+                radius: 90
+              });
+              document.querySelector('.demo-wrapper').onmousemove = function(ev) {
+                heatmapInstance.addData({
+                  x: ev.layerX,
+                  y: ev.layerY,
+                  value: 1
+                });
+              };</script>
         </body>
 </html>
