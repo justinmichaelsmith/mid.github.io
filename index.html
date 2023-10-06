@@ -56,17 +56,14 @@
                 </div>
               </div>
               <script type="text/javascript">
-                var heatmapInstance = h337.create({
-                    container: document.querySelector('.heatmap'),
-                    radius: 90
+                var heatmap = h337.create({
+                    container: domElement
                 });
-                document.querySelector('.demo-wrapper').onmousemove = function(ev) {
-                    heatmapInstance.addData({
-                        x: ev.layerX,
-                        y: ev.layerY,
-                        value: 1
-                    });
-                };
+
+                heatmap.setData({
+                    max: 5,
+                    data: [{ x: 10, y: 15, value: 5}, ...]
+                });
               </script>
         </body>
 </html>
