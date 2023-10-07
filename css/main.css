@@ -13,6 +13,11 @@ body {
   text-decoration: none;
  }
 
+ a:hover {
+  transform: scale(1.025);
+  transition: transform 200ms ease-in-out;
+ }
+
 .main {
   width: 100%;
   height: max-content;
@@ -69,14 +74,7 @@ body {
   padding-bottom: 36px;
 }
 
-.buttons {
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  display: inline-flex;
-}
-
-.button-subscribe {
+.button {
   padding-left: 8em;
   padding-right: 8em;
   padding-top: 1.25em;
@@ -88,6 +86,10 @@ body {
   align-items: center;
   gap: 8px;
   display: flex;
+}
+
+.button:hover {
+  background: #BA5F4A;
 }
 
 .subscribe {
